@@ -9,6 +9,9 @@ Source0:	https://github.com/apache/maven-doxia-sitetools/archive/refs/tags/doxia
 BuildArch:	noarch
 BuildRequires:	python
 BuildRequires:	mvn(org.apache.maven:maven-artifact)
+BuildRequires:	mvn(com.google.inject:guice-parent:pom::)
+BuildRequires:	mvn(org.slf4j:slf4j-parent:pom::)
+BuildRequires:	mvn(org.codehaus.plexus:plexus-containers:pom::)
 BuildRequires:	mvn(org.slf4j:slf4j-api)
 BuildRequires:	mvn(javax.inject:javax.inject)
 BuildRequires:	mvn(org.apache.maven.doxia:doxia-core)
